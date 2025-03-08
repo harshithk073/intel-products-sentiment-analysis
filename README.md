@@ -5,64 +5,64 @@
 This project focuses on sentiment analysis of Intel products using user and expert reviews from online sources over the last 3-5 years. It leverages the VADER lexicon for sentiment scoring and applies extensive text preprocessing techniques, categorizing sentiments into positive, negative, competition-related, and future expectation classes. Singular Value Decomposition (SVD) is employed for dimensionality reduction to enhance feature extraction. The project culminates in applying a Random Forest classification model to predict sentiment labels, providing insights into user sentiments and recommendations for product improvement. The analysis combines sentiment analysis with topic modeling to identify key themes in the reviews, offering a comprehensive solution for analyzing user feedback. This equips businesses with data-driven insights to facilitate informed decision-making and enhance consumer-centric strategies.
 ## Use cases
 
-Product Improvement: Identify specific aspects of Intel products that generate negative sentiment in reviews, guiding improvements in design, performance, or features.
+* **Product Improvement:** Identify specific aspects of Intel products that generate negative sentiment in reviews, guiding improvements in design, performance, or features.
 
-Market Strategy Formulation: Understand customer preferences and expectations to tailor marketing messages and product positioning effectively.
+* **Market Strategy Formulation:** Understand customer preferences and expectations to tailor marketing messages and product positioning effectively.
 
-Informed Decision-Making: Provide data-driven insights to Intel for making better decisions about product development, pricing, and promotion.
+* **Informed Decision-Making:** Provide data-driven insights to Intel for making better decisions about product development, pricing, and promotion.
 
-Competitive Analysis: Analyze mentions of competitors in reviews to understand Intel's strengths and weaknesses relative to other products in the market.
+* **Competitive Analysis:** Analyze mentions of competitors in reviews to understand Intel's strengths and weaknesses relative to other products in the market.
 
-Future Product Planning: Identify unmet needs and desired features mentioned in reviews to inform the development of future Intel products.
+* **Future Product Planning:** Identify unmet needs and desired features mentioned in reviews to inform the development of future Intel products.
 
-Targeted Marketing Campaigns: Segment customers based on sentiment and topic preferences to deliver more relevant and effective marketing messages.
+* **Targeted Marketing Campaigns:** Segment customers based on sentiment and topic preferences to deliver more relevant and effective marketing messages.
 
-Customer Service Improvement: Identify recurring complaints and issues raised in reviews to improve the efficiency and effectiveness of customer service operations.
+* **Customer Service Improvement:** Identify recurring complaints and issues raised in reviews to improve the efficiency and effectiveness of customer service operations.
 
-Sales Performance Prediction: Correlate sentiment trends with sales data to predict future sales performance and adjust strategies accordingly.
+* **Sales Performance Prediction:** Correlate sentiment trends with sales data to predict future sales performance and adjust strategies accordingly.
 ## Methodology
 
 **1. Data Collection and Preprocessing:**
 
 
  
-Data Aggregation: Collect user and expert reviews of Intel products from various online platforms spanning 3-5 years.
+* Data Aggregation: Collect user and expert reviews of Intel products from various online platforms spanning 3-5 years.
 
-Data Cleaning: Meticulously clean the collected data to ensure consistency and relevance.
+* Data Cleaning: Meticulously clean the collected data to ensure consistency and relevance.
 
-Text Preprocessing: Apply text preprocessing techniques, including tokenization, stop-word removal, stemming, and lemmatization, to standardize the text and remove noise.
+* Text Preprocessing: Apply text preprocessing techniques, including tokenization, stop-word removal, stemming, and lemmatization, to standardize the text and remove noise.
 
 **2. Sentiment Scoring and Categorization:**
 
 
  
-VADER Lexicon Application: Apply the VADER (Valence Aware Dictionary and sEntiment Reasoner) lexicon to assign sentiment scores to each review.
+* VADER Lexicon Application: Apply the VADER (Valence Aware Dictionary and sEntiment Reasoner) lexicon to assign sentiment scores to each review.
 
-Sentiment Categorization: Categorize reviews into four distinct sentiment classes: positive, negative, competition-related, and future expectations.
+* Sentiment Categorization: Categorize reviews into four distinct sentiment classes: positive, negative, competition-related, and future expectations.
 
 **3. Feature Extraction and Dimensionality Reduction:**
 
 
  
-Singular Value Decomposition (SVD): Utilize SVD for dimensionality reduction to extract the most informative features from the text data.
+* Singular Value Decomposition (SVD): Utilize SVD for dimensionality reduction to extract the most informative features from the text data.
 
 **4. Sentiment Prediction and Analysis:**
 
 
  
-Random Forest Classification Model: Train a Random Forest classification model to predict sentiment labels based on the processed text data.
+* Random Forest Classification Model: Train a Random Forest classification model to predict sentiment labels based on the processed text data.
 
-Insight Generation: Provide insights into user sentiments and actionable recommendations for product improvement based on analysis outcomes.
+* Insight Generation: Provide insights into user sentiments and actionable recommendations for product improvement based on analysis outcomes.
 
-Topic Modeling: Use topic modeling to identify key themes in user reviews.
+* Topic Modeling: Use topic modeling to identify key themes in user reviews.
 
 **5. Deliverables:**
 
 
  
-Comprehensive analysis of user and expert reviews to derive sentiments
+* Comprehensive analysis of user and expert reviews to derive sentiments
 
-Actionable insights for product improvement and market strategy formulation
+* Actionable insights for product improvement and market strategy formulation
 ## Limitations and Future Scope
 
 * **Reliance on VADER Lexicon:** The sentiment analysis relies heavily on the VADER lexicon, which may not perfectly capture nuanced sentiments or domain-specific language related to Intel products.
