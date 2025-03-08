@@ -63,7 +63,7 @@ This project focuses on sentiment analysis of Intel products using user and expe
 * Comprehensive analysis of user and expert reviews to derive sentiments
 
 * Actionable insights for product improvement and market strategy formulation
-## Limitations and Future Scope
+## Limitations
 
 * **Reliance on VADER Lexicon:** The sentiment analysis relies heavily on the VADER lexicon, which may not perfectly capture nuanced sentiments or domain-specific language related to Intel products.
 
